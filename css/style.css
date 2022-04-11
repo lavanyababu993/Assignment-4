@@ -1,0 +1,76 @@
+/*Authors: Lavanya
+Date:20.03.2022
+time: 4:34 pm*/
+
+.vh-60{
+	height: 50vh;
+}
+.vh-40{
+	height: 40vh;
+}
+.module{
+	background-image: url("../img/modulebg.jpg");
+}
+.bg{
+
+	background-image: url('../img/academy-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section1{
+	    display: flex;
+        justify-content: flex-end;
+		align-items: center;
+		height: 100vh;
+}
+.section1 div{
+     padding: 0 50px;
+     text-align: right;
+	}
+	.bg span{
+		display: block;
+	}
+.para-container{
+	background-color: #202624;
+	color: white;
+	padding: 30px;
+	margin-left: -120px;
+	flex-grow: 1;
+	height: auto;
+}
+.para-container p{
+	font-size: 20px;
+	margin: 20px;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+.para-container p:before{
+	content: '{' ;
+		color: #b63a3a;
+
+
+}
+.para-container p:after{
+	content: '}';
+	color:#b63a3a ;
+}
+
+@media screen and (max-width: 576px) {
+
+*{
+	padding: 0;
+	margin: 0;
+}
+  .para-container{
+		height: auto;
+}
+.vh-60{
+	height: auto;
+}
+.vh-40{
+	height: auto;
+}
+.section1 div{
+	padding-top:0;
+}
